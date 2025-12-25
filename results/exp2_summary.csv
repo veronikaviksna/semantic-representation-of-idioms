@@ -1,0 +1,2 @@
+aligned_mean,random_mean,cohens_d,retrieval_p@1,retrieval_p@5,retrieval_p@10,tfidf_aligned_mean,tfidf_random_mean
+0.7927396297454834,0.1723507046699524,7.3658485,1.0,1.0,1.0,0.0010503616122028991,0.0
