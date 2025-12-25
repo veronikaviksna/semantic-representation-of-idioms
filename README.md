@@ -63,6 +63,54 @@ The experiments are based on the **LaBSE** multilingual sentence embedding model
 
 ---
 
+## Repository Structure
+
+```
+semantic-representation-of-idioms/
+├── main.ipynb
+│   Main notebook to reproduce all experiments and figures.
+│
+├── model/
+│   └── labse.py
+│       Wrapper around the LaBSE sentence embedding model.
+│
+├── experimentation/
+│   ├── experiment1_monolingual.py
+│   │   Monolingual analysis (MAGPIE):
+│   │   literal vs figurative usage discrimination.
+│   │
+│   ├── experiment2_crosslingual.py
+│   │   Cross-lingual RU–EN alignment experiment
+│   │   with optional TF-IDF baseline.
+│   │
+│   ├── experiment3_lidioms.py
+│   │   Semantic vs lexical preference experiment
+│   │   (idiom definition vs literal translation).
+│   │
+│   ├── metrics.py
+│   │   Similarity, statistical tests, retrieval,
+│   │   PCA and clustering utilities.
+│   │
+│   └── plots.py
+│       Plotting utilities for all experiments.
+│
+├── data_utils/
+│   ├── load_magpie.py
+│   ├── load_idioms_in_context.py
+│   ├── load_lidioms.py
+│   └── __init__.py
+│
+├── data/
+│   ├── magpie.tsv
+│   ├── idioms_in_context_test.ruru-enus.ruru
+│   ├── idioms_in_context_test.ruru-enus.enus
+│   ├── lidioms_raw.csv
+│   └── lidioms_full.csv
+│
+└── README.md
+```
+
+
 ## How to Run
 
 The experiments are implemented in a single Jupyter notebook.
