@@ -68,8 +68,6 @@ The experiments are based on the **LaBSE** multilingual sentence embedding model
 semantic-representation-of-idioms/
 ├── main.ipynb
 │ Main notebook to reproduce all experiments and figures.
-│ Runs Experiment 1 (monolingual), Experiment 2 (cross-lingual),
-│ and Experiment 3 (semantic vs lexical preference).
 │
 ├── model/
 │ └── labse.py
@@ -97,32 +95,18 @@ semantic-representation-of-idioms/
 │
 ├── data_utils/
 │ ├── load_magpie.py
-│ │ Loader for the MAGPIE dataset.
-│ │
 │ ├── load_idioms_in_context.py
-│ │ Loader for the Idioms-in-Context dataset.
-│ │
 │ ├── load_lidioms.py
-│ │ Loader for the LIdioms dataset.
-│ │
 │ └── init.py
 │
 ├── data/
 │ ├── magpie.tsv
-│ │ MAGPIE dataset (English literal vs figurative usage).
-│ │
 │ ├── idioms_in_context_test.ruru-enus.ruru
 │ ├── idioms_in_context_test.ruru-enus.enus
-│ │ Parallel RU–EN idioms-in-context test set.
-│ │
 │ ├── lidioms_raw.csv
-│ │ Raw LIdioms dataset.
-│ │
 │ └── lidioms_full.csv
-│ Processed LIdioms dataset with definitions and translations.
 │
 └── README.md
-Project description, methodology, and reproduction instructions.
 
 ## How to Run
 
