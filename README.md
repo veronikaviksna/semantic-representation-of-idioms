@@ -117,7 +117,7 @@ The experiments are implemented in a single Jupyter notebook.
 2. Open `main.ipynb` in Google Colab.
 3. Install dependencies if prompted:
    ```python
-   !pip install sentence-transformers scikit-learn numpy pandas scipy
+   !pip install sentence-transformers scikit-learn numpy pandas scipy 
 4. Run all cells (Runtime → Run all).
 
 ### Local
